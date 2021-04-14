@@ -1,0 +1,37 @@
+.ImgBorder{
+    border-radius: 5px;
+    border-color: black;
+    background-color: darkslategrey;
+}
+
+
+.OrganListItem {
+    list-style: none;
+    padding: 0;
+}
+
+
+.OrganListItem:before {
+    content: "\f0da";
+    /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    /* same as padding-left set on li */
+    width: 1.3em;
+    /* same as padding-left set on li */
+}
+.OrganListItemActive {
+    list-style: none;
+    padding: 0;
+}
+.OrganListItemActive:before {
+    content: "\f0d7";
+    /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    /* same as padding-left set on li */
+    width: 1.3em;
+    /* same as padding-left set on li */
+}

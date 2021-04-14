@@ -1,0 +1,55 @@
+.ProductDet {
+    display: inline-flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 25px #bbc3cc;
+    background-color:rgba(247, 250, 252, 1);
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+h6 {
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.625;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(113, 128, 150);
+}
+
+.ProductName {
+    text-align: center;
+    padding: 10px;
+}
+
+.ProductDet:hover {
+    transform: scale(1.02);
+    
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.ProductDet:hover h6 {
+    margin-top: 1rem;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(60, 13, 153, 1);
+    font-weight: bolder;
+}
+
+.ProductDet:nth-child(odd) {
+    background: rgba(247, 250, 252, 1);
+    ;
+}
+
+.ProductDet:nth-child(even) {
+    background: rgba(247, 250, 252, 1);
+}

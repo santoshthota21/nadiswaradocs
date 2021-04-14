@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Banner from './components/carousel/Banner';
+import Cards from './components/card/Card';
+import Questions from './components/questions/Questions';
+import InstallationSteps from './components/InstallationSteps/InstallationSteps';
+import OrganPattern from './components/organPattern/OrganPattern';
+import NavBar from './components/navBar/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Banner></Banner> */}
+      {/* <NavBar></NavBar> */}
+      {/* <OrganPattern></OrganPattern> */}
+      {/* <Cards></Cards> */}
+      <InstallationSteps></InstallationSteps>
+    
     </div>
   );
 }
